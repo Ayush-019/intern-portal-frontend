@@ -7,8 +7,8 @@
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  scroll-behavior: smooth;
   padding-left: 10px;
+  overflow: hidden;
 }
 
 .heading {
@@ -173,6 +173,10 @@ element.style {
   margin-right: 20px;
   margin-top: 13px;
   padding: 0.5rem 1.5rem;
+}
+.apply-button:hover {
+  cursor: pointer;
+  background-color: #926aff;
 }
 .close-icon .MuiSvgIcon-root {
   color: rgba(105, 56, 239, 0.8) !important;
