@@ -1,0 +1,62 @@
+.navbarWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #fff;
+}
+.left {
+  width: 12%;
+  margin-left: 70px !important;
+  margin-right: 120px !important;
+  cursor: pointer;
+}
+.middle {
+  display: flex;
+  width: 65%;
+}
+
+.right {
+  display: flex;
+  width: 10%;
+}
+.middleEl {
+  display: flex;
+  width: 25%;
+}
+.Application {
+  width: 27% !important;
+}
+.Blog {
+  width: 15%;
+  margin-right: -10px;
+}
+.middleEl h3 {
+  font-size: 0.9rem;
+  font-weight: 700 !important;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  cursor: pointer;
+}
+.Listings h3 {
+  color: rgba(105, 56, 239, 1) !important;
+}
+.middleEl img {
+  width: 15%;
+  height: 40%;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+.right img {
+  width: 16%;
+  height: 17%;
+  margin-top: 15px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+.right .MuiSvgIcon-root {
+  width: 4rem !important;
+  color: #cecece !important;
+  height: 3.5rem !important;
+}

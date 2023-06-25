@@ -1,0 +1,14 @@
+.mainPageWrapper {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.cardsContainer {
+  display: flex;
+  margin-left: 10px;
+}
+.allCards {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
